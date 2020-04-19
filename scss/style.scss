@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+
+
+$dark-ovarlay: rgba(0,0,0,0.4);
+
+body{
+	font-family: 'Lora', serif;
+	user-select: none;
+
+	-webkit-transition: all 1s ease; 
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+
+#background{
+	background: url('../img/background.png');
+	background-size: cover;
+	min-height: 750px;
+
+	h1{
+		color: #ffffff;
+		font-size: 90px;
+	}
+	.row{
+		a:hover{
+			text-decoration: none;
+		}
+		.button1{
+			background: url('../img/re1.png');
+			background-size: cover;
+			padding: 10px 20px;
+			font-family: normal;
+			color: #ffffff;
+			border: 1px solid rgba(0,0,0,0.3);
+			width: 100%;
+		}
+		.button2{
+			color: #fff;
+			background: url('../img/rt.png');
+			background-size: cover;
+			padding: 10px 20px;
+			font-family: normal;
+			border-right: 1px solid #fff;
+			border-bottom: 1px solid #fff;
+			width: 100%;
+		}
+	}
+
+	.navbar{
+		.navbar-nav{
+			li{
+				padding: 30px 10px;
+				
+				a{
+					color: #ffffff;
+					.fa{
+						color: yellow;
+					}
+				}
+			}
+		.active{
+			border-top: 3px solid #ffffff;
+		}
+		}
+	}
+
+}
+.jhamela{
+	padding-top: 130px;
+}
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.menu_fix {
+   	position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: all linear 1s;
+}
+
+
+#food{
+	background: url('../img/bg.png');
+	background-size: cover;
+
+	h3{
+		color: #cc9900;
+	}
+	p{
+		font-family: normal;
+	}
+}
+
+#lonka{
+	background: url('../img/bg1.png');
+	background-size: cover;
+	min-height: 550px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+	.content{
+		background: rgba(0,0,0,0.4);
+
+		h3{
+			color: #ffffff;
+
+		}
+		p{
+			color: #ffffff;
+			font-family: normal;
+		}
+	}
+}
+
+#price-page{
+	background: url('../img/bg2.png');
+	background-size: cover;
+
+	h6,h2{
+		color: #dcaf32;
+	}
+	p{
+		font-family: normal;
+		color: #4c4c4c;
+	}
+	hr{
+		background: #dcaf32;
+	}
+	.borderr{
+		border: 1px solid #dcaf32;
+	}
+	.special{
+		background: #dcaf32;
+		color: #ffffff;
+		width: 50%;
+	}
+
+}
+
+#review-page{
+	background: url('../img/food1.png');
+	background-size: cover;
+	width: 100%;
+	min-height: 550px;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+
+
+	.overlay{
+		background: rgba(0,0,0,0.8);
+	}
+	h3{
+		color: #ffffff;
+	}
+	p,small{
+		color: #dde0df;
+		font-family: normal;
+	}
+	i{
+		font-size: 30px;
+	}
+}
+
+#contact{
+	font-family: normal;
+
+	input[type="email"]:focus,
+	input[type="date"]:focus,
+	input[type="number"]:focus,
+	input[type="name"]:focus,
+	input[type="submit"]:focus{
+    box-shadow: inset 7px 7px 17px rgb(128, 128, 128);
+}
+	
+	input[type="text"],
+	input[type="email"],
+	input[type="date"],
+	input[type="number"],
+	input[type="submit"]{
+		outline:none;
+		background-color: transparent;
+		box-shadow: -7px -7px 17px rgb(243, 243, 243), 7px 7px 17px rgb(128, 128, 128);
+	}
+
+	input{
+		border-radius: 0;
+		border: 1px solid #dcaf32;
+	}
+	.color{
+		h3{
+			color: #dcaf32;
+		}
+		p{
+			font-family: normal;
+		}
+	}
+	.form-group{
+		p{
+			color: #dcaf32; 
+
+		}
+	}
+	.btn{
+		color: #dcaf32;
+	}
+	.btn:hover{
+		color: #000;
+		
+	}
+}
+
+#footer-top{
+	background: #000;
+	color: #ffffff;
+	h5{
+		color: #ffffff;
+	}
+	p{
+		font-family: Arial;
+	}
+		
+
+	.fa{
+		font-size: 22px;
+	}
+}
+
+hr{
+		background: rgba(0,0,0,0.6);
+	}
+
+#footer{
+	background: #000;
+	p,a{
+		color: #ffffff;
+	}
+
+	a:hover{
+		text-decoration: none;
+	}
+}
+
+
+@media(max-width: 991px){
+	#background{
+	.navbar{
+		.navbar-nav{
+			li{
+				padding: 5px 15px;
+			}
+		.active{
+			border-top: 1px solid #ffffff;
+		}
+		}
+	}
+
+}
+}
+
+@media(max-width: 580px){
+	.navbar-brand{
+		img{
+			width: 80px;
+			height: 70px;
+		}
+	}
+}
+
+
+@media(max-width: 768px){
+	#background{
+		min-height: 950px;
+
+	}
+}
+
+
+@media(max-width: 485px){
+	#background{
+		min-height: 600px;
+
+		h1{
+		font-size: 50px;
+	}
+
+	}
+}

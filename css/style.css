@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap");
+body {
+  font-family: 'Lora', serif;
+  user-select: none;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease; }
+
+#background {
+  background: url("../img/background.png");
+  background-size: cover;
+  min-height: 750px; }
+  #background h1 {
+    color: #ffffff;
+    font-size: 90px; }
+  #background .row a:hover {
+    text-decoration: none; }
+  #background .row .button1 {
+    background: url("../img/re1.png");
+    background-size: cover;
+    padding: 10px 20px;
+    font-family: normal;
+    color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 100%; }
+  #background .row .button2 {
+    color: #fff;
+    background: url("../img/rt.png");
+    background-size: cover;
+    padding: 10px 20px;
+    font-family: normal;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    width: 100%; }
+  #background .navbar .navbar-nav li {
+    padding: 30px 10px; }
+    #background .navbar .navbar-nav li a {
+      color: #ffffff; }
+      #background .navbar .navbar-nav li a .fa {
+        color: yellow; }
+  #background .navbar .navbar-nav .active {
+    border-top: 3px solid #ffffff; }
+
+.jhamela {
+  padding-top: 130px; }
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 2; }
+
+.menu_fix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: all linear 1s; }
+
+#food {
+  background: url("../img/bg.png");
+  background-size: cover; }
+  #food h3 {
+    color: #cc9900; }
+  #food p {
+    font-family: normal; }
+
+#lonka {
+  background: url("../img/bg1.png");
+  background-size: cover;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  #lonka .content {
+    background: rgba(0, 0, 0, 0.4); }
+    #lonka .content h3 {
+      color: #ffffff; }
+    #lonka .content p {
+      color: #ffffff;
+      font-family: normal; }
+
+#price-page {
+  background: url("../img/bg2.png");
+  background-size: cover; }
+  #price-page h6, #price-page h2 {
+    color: #dcaf32; }
+  #price-page p {
+    font-family: normal;
+    color: #4c4c4c; }
+  #price-page hr {
+    background: #dcaf32; }
+  #price-page .borderr {
+    border: 1px solid #dcaf32; }
+  #price-page .special {
+    background: #dcaf32;
+    color: #ffffff;
+    width: 50%; }
+
+#review-page {
+  background: url("../img/food1.png");
+  background-size: cover;
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+  #review-page .overlay {
+    background: rgba(0, 0, 0, 0.8); }
+  #review-page h3 {
+    color: #ffffff; }
+  #review-page p, #review-page small {
+    color: #dde0df;
+    font-family: normal; }
+  #review-page i {
+    font-size: 30px; }
+
+#contact {
+  font-family: normal; }
+  #contact input[type="email"]:focus,
+  #contact input[type="date"]:focus,
+  #contact input[type="number"]:focus,
+  #contact input[type="name"]:focus,
+  #contact input[type="submit"]:focus {
+    box-shadow: inset 7px 7px 17px gray; }
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="date"],
+  #contact input[type="number"],
+  #contact input[type="submit"] {
+    outline: none;
+    background-color: transparent;
+    box-shadow: -7px -7px 17px #f3f3f3, 7px 7px 17px gray; }
+  #contact input {
+    border-radius: 0;
+    border: 1px solid #dcaf32; }
+  #contact .color h3 {
+    color: #dcaf32; }
+  #contact .color p {
+    font-family: normal; }
+  #contact .form-group p {
+    color: #dcaf32; }
+  #contact .btn {
+    color: #dcaf32; }
+  #contact .btn:hover {
+    color: #000; }
+
+#footer-top {
+  background: #000;
+  color: #ffffff; }
+  #footer-top h5 {
+    color: #ffffff; }
+  #footer-top p {
+    font-family: Arial; }
+  #footer-top .fa {
+    font-size: 22px; }
+
+hr {
+  background: rgba(0, 0, 0, 0.6); }
+
+#footer {
+  background: #000; }
+  #footer p, #footer a {
+    color: #ffffff; }
+  #footer a:hover {
+    text-decoration: none; }
+
+@media (max-width: 991px) {
+  #background .navbar .navbar-nav li {
+    padding: 5px 15px; }
+  #background .navbar .navbar-nav .active {
+    border-top: 1px solid #ffffff; } }
+
+@media (max-width: 580px) {
+  .navbar-brand img {
+    width: 80px;
+    height: 70px; } }
+
+@media (max-width: 768px) {
+  #background {
+    min-height: 950px; } }
+
+@media (max-width: 485px) {
+  #background {
+    min-height: 600px; }
+    #background h1 {
+      font-size: 50px; } }
